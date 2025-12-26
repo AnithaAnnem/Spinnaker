@@ -1,5 +1,35 @@
 # Spinnaker – Continuous Delivery Tool
 
+## Table of Contents
+
+- [What Is Spinnaker?](#what-is-spinnaker)
+- [Key Features of Spinnaker](#key-features-of-spinnaker)
+  - [Multi-Cloud Support](#1-multi-cloud-support)
+  - [Advanced Deployment Strategies](#2-advanced-deployment-strategies)
+  - [Pipeline-Based Deployments](#3-pipeline-based-deployments)
+  - [Kubernetes-Native Support](#4-kubernetes-native-support)
+  - [Automated Rollbacks](#5-automated-rollbacks)
+  - [Manual Judgment & Approvals](#6-manual-judgment--approvals)
+  - [UI and API](#7-ui-and-api)
+- [Spinnaker Architecture](#spinnaker-architecture)
+  - [Deck (UI Service)](#1-deck-ui-service)
+  - [Gate (API Gateway)](#2-gate-api-gateway)
+  - [Orca (Orchestration Engine)](#3-orca-orchestration-engine)
+  - [Clouddriver (Cloud Provider Integration)](#4-clouddriver-cloud-provider-integration)
+  - [Kayenta (Canary Analysis Service)](#5-kayenta-canary-analysis-service)
+  - [Igor (CI Integration Service)](#6-igor-ci-integration-service)
+  - [Echo (Event & Notification Service)](#7-echo-event--notification-service)
+  - [Fiat (Authorization Service)](#8-fiat-authorization-service)
+  - [Rosco (Bake Service)](#9-rosco-bake-service)
+  - [Front50 (Metadata Storage Service)](#10-front50-metadata-storage-service)
+- [Data Flow](#data-flow)
+- [How Spinnaker Works](#how-spinnaker-works)
+- [Key Spinnaker Use Cases](#key-spinnaker-use-cases)
+- [Spinnaker Limitations](#spinnaker-limitations)
+- [Spinnaker Alternatives](#spinnaker-alternatives)
+- [Conclusion](#conclusion)
+
+
 ## What Is Spinnaker?
 
 Spinnaker is an **open-source, multi-cloud Continuous Delivery (CD) platform** originally developed by Netflix and now maintained under the **Continuous Delivery Foundation (CDF)**.
