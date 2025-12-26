@@ -495,6 +495,8 @@ For Kubernetes-first GitOps workflows, **Argo CD or Flux** may be simpler choice
 **Maintained by:** Continuous Delivery Foundation
 
 ## References
-[Architecture](https://spinnaker.io/docs/reference/architecture/microservices-overview/)
 
-[Spinnaker](https://codefresh.io/learn/spinnaker/)
+| Topic | Link |
+|------|------|
+| Spinnaker Architecture (Microservices Overview) | https://spinnaker.io/docs/reference/architecture/microservices-overview/ |
+| Spinnaker Overview & Concepts | https://codefresh.io/learn/spinnaker/ |
